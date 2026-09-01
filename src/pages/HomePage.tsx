@@ -15,9 +15,7 @@ import {
 } from "lucide-react";
 import Footer from "#/components/Footer";
 import { themes, type ThemeColors } from "#/utils/colors.ts";
-import ExportDownloadButton, {
-  type ExportFormat,
-} from "#/components/ExportDownloadButton.tsx";
+import ExportDownloadButton from "#/components/ExportDownloadButton.tsx";
 
 export default function HomePage() {
   const [text, setText] = useState("");
